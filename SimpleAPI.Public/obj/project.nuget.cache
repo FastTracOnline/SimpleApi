@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wrc0GKHWGsMNU86QufVj4iR1MqMKpgXeeBgfXouvbvaTzCF2HQemv4I8GFziuaSz1rtLQUwzIbbvsPSN95Q/4Q==",
+  "success": true,
+  "projectFilePath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Public\\SimpleAPI.Public.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
