@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {}
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {}
   },
   "projects": {
-    "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
         "projectName": "SimpleAPI.Common",
-        "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\obj\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
         "projectName": "SimpleAPI.Data",
-        "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\obj\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
-                "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
+              "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+                "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
               }
             }
           }

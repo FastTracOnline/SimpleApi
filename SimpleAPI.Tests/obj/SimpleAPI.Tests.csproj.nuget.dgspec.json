@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {}
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {}
   },
   "projects": {
-    "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj",
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj",
         "projectName": "SimpleAPI.Tests",
-        "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Tests\\obj\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8591,11 +8591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.API\\SimpleAPI.API.csproj",
+      "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.API\\SimpleAPI.API.csproj",
       "projectName": "SimpleAPI.API",
-      "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.API\\SimpleAPI.API.csproj",
+      "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.API\\SimpleAPI.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.API\\obj\\",
+      "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8612,17 +8612,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Business\\SimpleAPI.Business.csproj": {
-              "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Business\\SimpleAPI.Business.csproj"
+            "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Business\\SimpleAPI.Business.csproj": {
+              "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Business\\SimpleAPI.Business.csproj"
             },
-            "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
-              "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
+            "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+              "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
             },
-            "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
-              "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Data\\SimpleAPI.Data.csproj"
+            "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
+              "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj"
             },
-            "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Public\\SimpleAPI.Public.csproj": {
-              "projectPath": "E:\\Source\\Repos\\SimpleAPI\\SimpleAPI.Public\\SimpleAPI.Public.csproj"
+            "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj": {
+              "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj"
             }
           }
         }
