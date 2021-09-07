@@ -37,6 +37,7 @@ namespace SimpleAPI.Data.Connections
 
 		public DbSet<AuditLog> AuditLogs { get; set; }
 		public DbSet<SimplePOCO> SimpleRecords { get; set; }
+		public DbSet<SimpleChildPOCO> SimpleChildRecords { get; set; }
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
@@ -78,6 +79,8 @@ namespace SimpleAPI.Data.Connections
 						_ = entry.Entity.TrySetProperty("UpdatedBy", userId);
 					}
 				}
+
+				//TODO: Check for Properties based on IAuditEntry & update
 			}
 
 			OnBeforeSaveChanges(userId);                //  pass in identifier for user making change

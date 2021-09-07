@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ow9VCkk72U+2e649q25pTOM9kG7rifY+ecopM/1rGXVJ9ucZS8pYzNStm27arnqGfrHWZ1X9DF59GsOSpLzBA==",
+  "dgSpecHash": "QL7utW3m4C6zZGnv9OIIIjb0OY8nMMLM8xtaIxXrUjfNTSXNXIAD6D5DUdhRmZ6egNK+L9zhE//7KpJeQybdRw==",
   "success": true,
   "projectFilePath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.API\\SimpleAPI.API.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\linqkit.microsoft.entityframeworkcore\\5.0.24\\linqkit.microsoft.entityframeworkcore.5.0.24.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\linqkit.microsoft.entityframeworkcore\\5.0.26\\linqkit.microsoft.entityframeworkcore.5.0.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

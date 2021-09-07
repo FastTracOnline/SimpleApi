@@ -32,10 +32,24 @@ namespace SimpleAPI.Data.Repositories
 			}
 		}
 
+		private IEntityRepository<SimpleChildPOCO> _simpleChildRepository { get; set; }
+
+		public IEntityRepository<SimpleChildPOCO> SimpleChildRepository
+		{
+			get
+			{
+				_simpleChildRepository ??= (IEntityRepository<SimpleChildPOCO>)Provider.GetService(typeof(IEntityRepository<SimpleChildPOCO>));
+				return _simpleChildRepository;
+			}
+		}
+
 		public IEntityRepository<TEntity> GetRepository<TEntity>() where TEntity : class
 		{
 			if (typeof(TEntity) == typeof(SimplePOCO))
 				return (IEntityRepository<TEntity>)SimpleRepository;
+
+			if (typeof(TEntity) == typeof(SimpleChildPOCO))
+				return (IEntityRepository<TEntity>)SimpleChildRepository;
 
 			return null;
 		}
@@ -51,6 +65,7 @@ namespace SimpleAPI.Data.Repositories
 			{
 				if (disposing)
 				{
+					_simpleChildRepository = null;
 					_simpleRepository = null;
 				}
 

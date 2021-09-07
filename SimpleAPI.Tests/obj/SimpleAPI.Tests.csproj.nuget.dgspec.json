@@ -4,6 +4,222 @@
     "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {}
   },
   "projects": {
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
+        "projectName": "SimpleAPI.Common",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
+        "projectName": "SimpleAPI.Data",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+                "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "LinqKit.Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj",
+        "projectName": "SimpleAPI.Public",
+        "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+                "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Tests\\SimpleAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +243,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj": {
+                "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Data\\SimpleAPI.Data.csproj"
+              },
+              "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj": {
+                "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Public\\SimpleAPI.Public.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

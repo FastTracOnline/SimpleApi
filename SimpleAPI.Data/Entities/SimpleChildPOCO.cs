@@ -3,18 +3,18 @@ using SimpleAPI.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace SimpleAPI.Data.Entities
 {
-	public partial class SimplePOCO : VersionedEntity, IAuditEntity
+	public partial class SimpleChildPOCO : VersionedEntity, IAuditEntity
 	{
-		public SimplePOCO() : base()
+		public SimpleChildPOCO() : base()
 		{
 			Id = Guid.NewGuid();
 			MyEnumField = SimpleEnum.Unknown;
-            MyChildren = new List<SimpleChildPOCO>();
-        }
+		}
 
 		[Display(Name="Primary Key")]
 		public Guid Id { get; set; }			// Surrogate keys should be unguessable and not reveal the data storage
@@ -22,9 +22,10 @@ namespace SimpleAPI.Data.Entities
 		public SimpleEnum MyEnumField { get; set; }
 
         // EF Navigation Fields
-        public virtual IList<SimpleChildPOCO> MyChildren { get; set; }
+		public Guid MyParentId { get; set; }
+		[ForeignKey("MyParentId")]
+        public virtual SimplePOCO MyParent { get; set; }
 
         // Calculated Properties
-        public int ChildrenCount => MyChildren?.Count ?? 0;
     }
 }

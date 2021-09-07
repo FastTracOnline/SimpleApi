@@ -14,8 +14,13 @@ namespace SimpleAPI.Tests
 
 		public SharedDatabaseFixture()
 		{
-			var services = new ServiceCollection();
+			//var services = new ServiceCollection();
 
 		}
-	}
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

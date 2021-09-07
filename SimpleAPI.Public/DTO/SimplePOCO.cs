@@ -1,28 +1,24 @@
 ﻿using SimpleAPI.Common;
-using SimpleAPI.Data.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
 
-namespace SimpleAPI.Data.Entities
+namespace SimpleAPI.Public.DTO
 {
-	public partial class SimplePOCO : VersionedEntity, IAuditEntity
+    public partial class SimplePOCO
 	{
-		public SimplePOCO() : base()
+		public SimplePOCO() 
 		{
 			Id = Guid.NewGuid();
 			MyEnumField = SimpleEnum.Unknown;
             MyChildren = new List<SimpleChildPOCO>();
         }
 
-		[Display(Name="Primary Key")]
 		public Guid Id { get; set; }			// Surrogate keys should be unguessable and not reveal the data storage
 		public string MyField { get; set; }
 		public SimpleEnum MyEnumField { get; set; }
 
         // EF Navigation Fields
-        public virtual IList<SimpleChildPOCO> MyChildren { get; set; }
+        public List<SimpleChildPOCO> MyChildren { get; set; }
 
         // Calculated Properties
         public int ChildrenCount => MyChildren?.Count ?? 0;

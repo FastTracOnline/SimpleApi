@@ -22,9 +22,12 @@
   <ItemGroup>
     <Folder Include="ControllerTests\" />
     <Folder Include="BusinessRuleTests\" />
-    <Folder Include="MappingTests\" />
-    <Folder Include="EntityValidationTests\" />
     <Folder Include="RepositoryTests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleAPI.Data\SimpleAPI.Data.csproj" />
+    <ProjectReference Include="..\SimpleAPI.Public\SimpleAPI.Public.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         }
+      },
+      "SimpleAPI.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SimpleAPI.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleAPI.Common.dll": {}
+        }
       }
     }
   },
@@ -103,10 +116,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SimpleAPI.Common/1.0.0": {
+      "type": "project",
+      "path": "../SimpleAPI.Common/SimpleAPI.Common.csproj",
+      "msbuildProject": "../SimpleAPI.Common/SimpleAPI.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "SimpleAPI.Common >= 1.0.0",
       "System.ComponentModel.Annotations >= 5.0.0"
     ]
   },
@@ -136,7 +155,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj": {
+              "projectPath": "E:\\Source\\Repos\\FastTracOnline\\SimpleApi\\SimpleAPI.Common\\SimpleAPI.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

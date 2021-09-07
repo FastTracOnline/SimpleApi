@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleAPI.Common\SimpleAPI.Common.csproj" />
+    <ProjectReference Include="..\SimpleAPI.Data\SimpleAPI.Data.csproj" />
+    <ProjectReference Include="..\SimpleAPI.Public\SimpleAPI.Public.csproj" />
+  </ItemGroup>
+
 </Project>

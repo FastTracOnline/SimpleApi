@@ -59,7 +59,7 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "LinqKit.Microsoft.EntityFrameworkCore/5.0.24": {
+      "LinqKit.Microsoft.EntityFrameworkCore/5.0.26": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.0"
@@ -2593,6 +2593,12 @@
       "SimpleAPI.Business/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "SimpleAPI.Common": "1.0.0",
+          "SimpleAPI.Data": "1.0.0",
+          "SimpleAPI.Public": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SimpleAPI.Business.dll": {}
         },
@@ -2635,6 +2641,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "SimpleAPI.Common": "1.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
@@ -2717,16 +2724,16 @@
         "logo.png"
       ]
     },
-    "LinqKit.Microsoft.EntityFrameworkCore/5.0.24": {
-      "sha512": "PemexcITl6b0EWnZczQG3fEHFoMxUKHRoe54rHFVOlIu3b4sXzZ10pa7KBByaK5O5UGmqCdWS6K1AjXQpF+JOg==",
+    "LinqKit.Microsoft.EntityFrameworkCore/5.0.26": {
+      "sha512": "HCVpETqDnbEkOjH8XWvpR8Rd6NJb/bqaj6yY8yLnZyvdL6lEtG6QbLrfiVycUkJjjniyf3X8fmBS9KVAB5wHcw==",
       "type": "package",
-      "path": "linqkit.microsoft.entityframeworkcore/5.0.24",
+      "path": "linqkit.microsoft.entityframeworkcore/5.0.26",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.1/LinqKit.Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/LinqKit.Microsoft.EntityFrameworkCore.xml",
-        "linqkit.microsoft.entityframeworkcore.5.0.24.nupkg.sha512",
+        "linqkit.microsoft.entityframeworkcore.5.0.26.nupkg.sha512",
         "linqkit.microsoft.entityframeworkcore.nuspec"
       ]
     },
@@ -8566,6 +8573,7 @@
     "net5.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "LinqKit.Microsoft.EntityFrameworkCore >= 5.0.26",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.8",
       "Newtonsoft.Json >= 13.0.1",
       "Serilog >= 2.10.0",
@@ -8644,6 +8652,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
+          },
+          "LinqKit.Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.26, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

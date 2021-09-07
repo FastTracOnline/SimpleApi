@@ -59,6 +59,7 @@ namespace SimpleAPI.API
 
 			services.TryAddScoped<IUoW, UoW>();
 			services.TryAddScoped<IEntityRepository<SimplePOCO>, EntityRepository<SimplePOCO>>();
+			services.TryAddScoped<IEntityRepository<SimpleChildPOCO>, EntityRepository<SimpleChildPOCO>>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

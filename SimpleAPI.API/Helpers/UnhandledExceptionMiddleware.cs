@@ -68,7 +68,7 @@ namespace SimpleAPI.API.Helpers
 			response.ContentType = "application/json";
 			response.Headers.Add("exception", "messageException");
 
-			response.WriteAsync(JsonConvert.SerializeObject(new CustomErrorResponse { Message = message, Description = description });
+			response.WriteAsync(JsonConvert.SerializeObject(new CustomErrorResponse { Message = message, Description = description }));
 		}
 	}
 
